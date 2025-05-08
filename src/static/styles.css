@@ -78,16 +78,17 @@ section h3 {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
-  color: #555; /* Ensures the text color is distinct */
-  background-color: #f0f8ff; /* Light background for better visibility */
-  border: 1px solid #ddd; /* Subtle border to separate the section */
-  border-radius: 4px; /* Rounded corners for a polished look */
+  color: #333; /* Darker color for better readability */
+  background-color: #f9f9f9; /* Matches the card background for consistency */
+  border: 1px solid #ccc; /* Subtle border for separation */
+  border-radius: 5px; /* Rounded corners for a polished look */
   padding: 10px; /* Adds spacing inside the list */
-} /* Makes the text size smaller for better readability */
+}
 
 .activity-card ul li {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 14px; /* Slightly smaller font for participants */
+  color: #555; /* Softer color for participant names */
 }
 
 .form-group {
